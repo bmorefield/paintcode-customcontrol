@@ -13,6 +13,8 @@
 		A9F1E9A91B5D5E0C0006CFFF /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A9F1E9A81B5D5E0C0006CFFF /* Images.xcassets */; };
 		A9F1E9AC1B5D5E0C0006CFFF /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = A9F1E9AA1B5D5E0C0006CFFF /* LaunchScreen.xib */; };
 		A9F1E9B81B5D5E0C0006CFFF /* PaintCode_Control_DemoTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = A9F1E9B71B5D5E0C0006CFFF /* PaintCode_Control_DemoTests.swift */; };
+		A9F1E9C21B5D5E870006CFFF /* CoutndownControl.swift in Sources */ = {isa = PBXBuildFile; fileRef = A9F1E9C11B5D5E870006CFFF /* CoutndownControl.swift */; };
+		A9F1E9C41B5D5EB60006CFFF /* CountdownView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A9F1E9C31B5D5EB60006CFFF /* CountdownView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -36,6 +38,8 @@
 		A9F1E9B11B5D5E0C0006CFFF /* PaintCode Control DemoTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "PaintCode Control DemoTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		A9F1E9B61B5D5E0C0006CFFF /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		A9F1E9B71B5D5E0C0006CFFF /* PaintCode_Control_DemoTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PaintCode_Control_DemoTests.swift; sourceTree = "<group>"; };
+		A9F1E9C11B5D5E870006CFFF /* CoutndownControl.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CoutndownControl.swift; sourceTree = "<group>"; };
+		A9F1E9C31B5D5EB60006CFFF /* CountdownView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CountdownView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -77,9 +81,11 @@
 		A9F1E99E1B5D5E0C0006CFFF /* PaintCode Control Demo */ = {
 			isa = PBXGroup;
 			children = (
+				A9F1E9C11B5D5E870006CFFF /* CoutndownControl.swift */,
 				A9F1E9A11B5D5E0C0006CFFF /* AppDelegate.swift */,
 				A9F1E9A31B5D5E0C0006CFFF /* ViewController.swift */,
 				A9F1E9A51B5D5E0C0006CFFF /* Main.storyboard */,
+				A9F1E9C31B5D5EB60006CFFF /* CountdownView.swift */,
 				A9F1E9A81B5D5E0C0006CFFF /* Images.xcassets */,
 				A9F1E9AA1B5D5E0C0006CFFF /* LaunchScreen.xib */,
 				A9F1E99F1B5D5E0C0006CFFF /* Supporting Files */,
@@ -212,7 +218,9 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				A9F1E9C21B5D5E870006CFFF /* CoutndownControl.swift in Sources */,
 				A9F1E9A41B5D5E0C0006CFFF /* ViewController.swift in Sources */,
+				A9F1E9C41B5D5EB60006CFFF /* CountdownView.swift in Sources */,
 				A9F1E9A21B5D5E0C0006CFFF /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
